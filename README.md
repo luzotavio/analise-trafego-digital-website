@@ -44,3 +44,29 @@ Para resolver esse problema, foi utilizado o ecossistema Python para Ciência de
 * **Python:** Linguagem base.
 * **Pandas:** Manipulação e agregação de dados.
 * **Matplotlib & Seaborn:** Visualização de dados estática e estatística.
+
+---
+
+## 🔍 Principais Insights de Negócio
+
+### 1. Qualidade vs. Quantidade
+Descobrimos que, embora as Redes Sociais tragam volume, o **Organic Video** retém a atenção do usuário **3x mais**.
+![Tempo de Engajamento](images/tempo_engajamento_por_canal.png)
+
+### 2. O Mito da "Diluição de Qualidade"
+Nossa análise estatística (`Pearson R=0.31`) provou que **aumentar o tráfego NÃO reduz a qualidade**. Horários de pico trazem usuários altamente engajados, validando o investimento em escala.
+![Correlação Volume x Qualidade](images/correlacao_volume_vs_qualidade.png)
+
+### 3. Sazonalidade e Timing
+O "horário nobre" do site é surpreendente: picos de acesso ocorrem à **Meia-Noite**, sugerindo um comportamento noturno do público-alvo.
+![Heatmap de Horários](images/heatmap_trafego_hora_canal.png)
+
+---
+
+## 🚀 Acesse o Projeto Completo
+
+Quer ver o código passo a passo, a limpeza dos dados e a geração dos gráficos? Clique no botão abaixo para acessar o Notebook.
+
+[![Acessar Notebook](https://img.shields.io/badge/Acessar_Notebook_Completo-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](/notebooks/01_analise_exploratoria.ipynb)
+
+*(Caso o botão não funcione, navegue até o arquivo `.ipynb` na lista de arquivos acima)*
